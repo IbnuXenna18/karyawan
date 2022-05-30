@@ -37,7 +37,7 @@
               <a href="?page=karyawanupdate&id=<?php echo $data['id'] ?>" class="badge bg-warning">
                 <span data-feather="edit"></span>
               </a>
-              <a href="?page=karyawanupdate" class="badge bg-danger">
+              <a href="?page=karyawandelete&id=<?php echo $data['id'] ?>" class="badge bg-danger">
                 <span data-feather="x-octagon"></span>
               </a>
             </td>
