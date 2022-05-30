@@ -26,7 +26,7 @@
     
                 $database = new Database();
                 $connection = $database->getConnection();
-                $statement = $connection->prepare($insertSQL);
+                $statement = $connection->prepare($updateSQL);
                 $statement->bindParam(1, $nik);
                 $statement->bindParam(2, $nama_karyawan);
                 $statement->bindParam(3, $jenis_kelamin);
