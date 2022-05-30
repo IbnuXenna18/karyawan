@@ -69,7 +69,7 @@
         <?php
           $_SESSION['username'] = $_POST['username'];
 
-          header('Location: pages/main.php');
+          header('Location: pages/main.php?page=dashboard');
         } else {
         ?>
           <div class="alert alert-danger" role="alert">
