@@ -18,7 +18,7 @@ if(isset($_GET['page'])){
             include "karyawan/karyawandelete.php";
             break;
         case 'bagian':
-            include "bagian.php";
+            include "bagian/bagian.php";
             break;
         default:
             include "dashboard.php";
