@@ -34,12 +34,12 @@
             <td><?php echo $data['nama_karyawan'] ?></td>
             <td><?php echo $data['jenis_kelamin'] ?></td>
             <td>
-              <button class="btn btn-warning btn-sm">
-                <span data-feather="clipboard"></span>
-              </button>
-              <button class="btn btn-danger btn-sm">
+              <a href="?page=karyawanupdate&id=<?php echo $data['id'] ?>" class="badge bg-warning">
+                <span data-feather="edit"></span>
+              </a>
+              <a href="?page=karyawanupdate" class="badge bg-danger">
                 <span data-feather="x-octagon"></span>
-              </button>
+              </a>
             </td>
           </tr>
         <?php
