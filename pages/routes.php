@@ -23,6 +23,9 @@ if(isset($_GET['page'])){
         case 'bagiancreate':
             include "bagian/bagiancreate.php";
             break;
+        case 'bagianupdate':
+            include "bagian/bagianupdate.php";
+            break;
         default:
             include "dashboard.php";
             break;
